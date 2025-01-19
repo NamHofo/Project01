@@ -159,7 +159,7 @@ printf "\"%s\"", $i
 } else {
 printf "%s", $i
 }
-# In dấu phẩy giữa các trường, trừ trường cuối cùng
+In dấu phẩy giữa các trường, trừ trường cuối cùng
 if (i < NF) printf ","
 else print ""
 }
